@@ -77,11 +77,11 @@ CAPABILITY 01;38;5;95
 # character device driver:
 CHR 48;5;108;38;5;223;01
 # directory:
-DIR 01;38;5;223
+DIR 01;04;38;5;39
 # door:
 DOOR 48;5;234;38;5;180;01
 # This is for files with execute permission:
-EXEC 01;38;5;108
+EXEC 01;32
 # pipe:
 FIFO 48;5;234;38;5;180;01
 # regular file:
@@ -93,7 +93,7 @@ LINK 48;5;234;38;5;223
 # orphaned symbolic link:
 ORPHAN 48;5;234;38;5;187
 # directory that is other-writable (o+w) and not sticky:
-OTHER_WRITABLE 48;5;234;38;5;180
+OTHER_WRITABLE 48;5;234;01;04;38;5;39
 # file that is setuid (u+s):
 SETUID 48;5;234;38;5;66
 # file that is setgid (g+s):
@@ -201,7 +201,7 @@ STICKY_OTHER_WRITABLE 48;5;180;38;5;234
 .java 01;38;5;187
 .scala 01;38;5;187
 .hs 01;38;5;187
-.py 01;38;5;187
+.py 01;38;5;184
 .rb 01;38;5;187
 .php 01;38;5;187
 .pl 01;38;5;187
